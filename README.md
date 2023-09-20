@@ -9,10 +9,10 @@ To produce the results, follow the instruction provided below.
 
 (2) execute the first input cell of prob_state_synth.nb to generate two programs (XXX_det.bat and XXX_prob.bat).
 
-(3) execute the two programs to generate two output data (XXX_det.txt and XXX_prob.txt), which is the description of gate sequences for the state synthesis.
+(3) execute the two programs to generate two output data (XXX_det.txt and XXX_prob.txt), which is the description of gate sequences for the state synthesis. Note that the pre-compiled binary of the RS compiler for windows must be put in the same directory.
 
-(4) execute the second input cell of prob_state_synth.nb to compute the actual approximation error achieved by a single call of the RS compiler (the deterministic synthesis).
+(4) execute the second input cell of prob_state_synth.nb to compute the actual approximation error and the T-count achieved by a single call of the RS compiler (deterministic synthesis).
 
-(5) execute the third input cell of prob_state_synth.nb to compute the actual approximation error achieved by the optimal probabilistic synthesis.
+(5) execute the third input cell of prob_state_synth.nb to compute the actual approximation error and the T-count achieved by the optimal probabilistic synthesis.
 
 (6) execute the fourth input cell of prob_state_synth.nb to compare the approximation errors.
