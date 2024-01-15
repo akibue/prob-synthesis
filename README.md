@@ -1,6 +1,6 @@
 # prob-synthesis
 
-Numerical results for https://arxiv.org/abs/2303.10860.
+Numerical results for [https://arxiv.org/abs/2303.10860](https://www.nature.com/articles/s41534-023-00793-7).
 
 These results are produced by Wolfram Mathematica 13.3 and the Ross-Selinger (RS) compiler (https://www.mathstat.dal.ca/~selinger/newsynth/).
 To produce the results, follow the instruction provided below.
